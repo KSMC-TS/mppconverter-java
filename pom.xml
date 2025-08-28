@@ -140,7 +140,7 @@
 			<version>1.9.12</version>
 		</dependency>
 		
-		<!-- Force.COM oAUTH and REST -->
+		<!-- Removed Force.COM oAUTH and REST -->
 		
 		<dependency>
 			<groupId>cglib</groupId>
