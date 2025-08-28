@@ -17,14 +17,7 @@
 		<jetty-plugin.version>8.1.10.v20130312</jetty-plugin.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>force-rest-api</id>
-			<name>force-rest-api repository on GitHub</name>
-			<url>http://jesperfj.github.com/force-rest-api/repository/</url>
-		</repository>
-	</repositories>
-
+	
 	<dependencies>
 
 		<dependency>
@@ -148,21 +141,7 @@
 		</dependency>
 		
 		<!-- Force.COM oAUTH and REST -->
-		<dependency>
-			<groupId>com.force.api</groupId>
-			<artifactId>force-rest-api</artifactId>
-			<version>0.0.19</version>
-		</dependency>
-		<dependency>
-			<groupId>com.force.sdk</groupId>
-			<artifactId>force-oauth</artifactId>
-			<version>22.0.8-BETA</version>
-		</dependency>
-		<dependency>
-			<groupId>com.force.sdk</groupId>
-			<artifactId>force-springsecurity</artifactId>
-			<version>22.0.8-BETA</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
